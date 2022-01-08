@@ -1,1 +1,29 @@
-site_name: My Docs
+site_name: AD Squad
+theme:
+  name: material
+  palette:
+    - media: "(prefers-color-scheme: light)" 
+      scheme: default
+      primary: teal
+      accent: teal
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)" 
+      scheme: slate
+      primary: teal
+      accent: teal
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
+  font:
+    code: Roboto Mono
+  language: id
+  icon:
+    logo: material/library
+  extra:
+    generator: false
+    social:
+      - icon: fontawesome/brands/twitter
+        link: https://twitter.com/asruldev
+  
